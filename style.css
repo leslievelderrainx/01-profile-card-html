@@ -1,0 +1,48 @@
+body {
+  background-color: #add8e6; /* light blue */
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.profile-card {
+  background: #fff; /* white background for the card */
+  border: 2px solid #003366; /* dark blue border */
+  border-radius: 12px; /* rounded corners */
+  max-width: 400px; /* limit the card's width */
+  margin: 40px auto; /* center the card horizontally and add space on top/bottom */
+  padding: 2rem; /* space inside the card */
+  text-align: center; /* center all text inside the card */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07); /* subtle shadow for depth */
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem; /* large font size */
+  color: #003366; /* dark blue color */
+}
+
+h2 {
+  font-size: 2rem; /* slightly smaller than h1 */
+  color: slategrey; /* light gray color */
+}
+
+p {
+  font-size: 1.25rem; /* larger than default for readability */
+  line-height: 1.8;   /* more space between lines for easier reading */
+}
+
+ul {
+  list-style: none;         /* Remove bullet points */
+  padding: 0;               /* Remove default padding */
+  margin: 1.5rem 0 0 0;     /* Add spacing above the list */
+}
+
+ul li {
+  margin-bottom: 0.75rem;   /* Add space between list items */
+}
+
+ul li:last-child {
+  margin-bottom: 0;         /* Remove space after the last item */
+}
